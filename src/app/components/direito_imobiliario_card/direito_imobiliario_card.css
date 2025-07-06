@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Josefin+Slab:ital,wght@0,100..700;1,100..700&display=swap');
+
+.card {
+    background: #675F4B;
+    width: 370px;
+    height: 370px;
+    padding: 21px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    @media (max-width: 860px) {
+        scale: 0.9;
+    }
+
+    @media (max-width: 768px) {
+        scale: 0.8;
+    }
+
+    @media (max-width: 420px) {
+        scale: 0.7;
+    }
+
+    @media (max-width: 360px) {
+        scale: 0.6;
+    }
+}
+
+#content {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 50%;
+    gap: 10px;
+}
+
+#title {
+    width: 164px;
+    height: 164px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#imobiliario {
+    color: #D9D5CE;
+    font-family: "Josefin Slab", serif;
+    font-size: 35px;
+}
+
+p {
+    font-size: 24px;
+    color: #D9D5CE;
+    text-align: center;
+    width: 100%;
+    height: 50%;
+    font-family: "Josefin Slab", serif;
+}
